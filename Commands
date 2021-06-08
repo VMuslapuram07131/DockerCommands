@@ -1,0 +1,22 @@
+docker --version (to check the docker version)
+
+
+NigelPoulton - Docker Captain(https://github.com/nigelpoulton/gsd)
+
+commands
+
+TO list the docker images locally > docker image ls
+
+To build the image from source code, go into source code directory (docker image build -t vmuslapuram07131/first_container:Img .)
+
+To push the Built container Image to Docker Hub registry >> docker image push vmuslapuram07131/first_container:Img
+
+run docker and map port >docker container run -d --name web -p 8000:8080 vmuslapuram07131/first_container:Img
+
+docker container list > docker contain -ls -a
+
+Docker Stop > docker container stop web 
+
+Docker Start> docker container stop web(Name you used in line 12) 
+
+delete docker container > docker container rm web
