@@ -20,3 +20,12 @@ Docker Stop > docker container stop web
 Docker Start> docker container stop web(Name you used in line 12) 
 
 delete docker container > docker container rm web
+
+
+
+docker-compose version
+
+run docker compose, navigate to docker compose yml file location >>> docker-compose up -d
+
+
+run docker compose >>> docker-compose down
