@@ -23,9 +23,9 @@ delete docker container > docker container rm web
 
 
 
-docker-compose version
+docker-compose --version
 
-run docker compose, navigate to docker compose yml file location >>> docker-compose up -d
+To Launch Docker Containers with docker compose File
+            -navigate to docker compose yml file location >>>docker-compose -f docker-compose.yml up 
 
-
-run docker compose >>> docker-compose down
+to bring containers down docker compose >>> docker-compose -f docker-compose.yml down
